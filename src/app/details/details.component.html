@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <button class="btn-primary btn" (click)="showHideToggle()">      
+        {{ showHide == true ? 'Hide Details' : 'Display Details' }}
+      </button></div>
+
+    <div class="col-xs-12">
+      <p class="details" *ngIf="showHide"> Clicker Counter Below 
+      </p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <ul class="col-xs-12">
+              <li> {{ counter }} </li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>
