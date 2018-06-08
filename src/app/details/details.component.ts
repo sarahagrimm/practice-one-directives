@@ -10,14 +10,6 @@ export class DetailsComponent implements OnInit {
   showHide: boolean;
   counter = 0;
   showLog = false;
-
-  changeText() { 
-    if (this.showHide = true) {
-      return 'hide';
-    } else if (this.showHide = !true) {
-      return 'display details';
-    }
-  }
   
   showHideToggle() {
     this.showHide = !this.showHide;
