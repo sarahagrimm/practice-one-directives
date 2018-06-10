@@ -1,0 +1,25 @@
+.btn {
+    margin-top: 300px;
+    font-size: 50px;
+    font-family: Impact;
+    position: relative;
+}
+
+.row {
+    text-align: center;
+}
+
+.details {
+    padding: 20px;
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    margin: 0;
+}
